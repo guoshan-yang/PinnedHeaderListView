@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
         listView = (PinnedHeaderListView) findViewById(R.id.listView);
 
         listView.setData(getData());
-
     }
 
 
