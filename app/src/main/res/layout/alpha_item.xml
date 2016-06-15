@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/alphaitem_tv_alpha"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:textSize="14sp"
+        android:background="#dddddd"
+        android:visibility="visible"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="常用"
+        android:textColor="#9f9f9f" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/alphaitem_tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textColor="#181716"
+            android:paddingLeft="15dp"
+            android:textSize="16sp"
+            android:text="中国"
+            />
+
+        <TextView
+            android:id="@+id/countryCode"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:textColor="#9f9f9f"
+            android:paddingRight="15dp"
+            android:textSize="16sp"
+            android:text="86"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
